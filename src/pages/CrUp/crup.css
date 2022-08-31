@@ -1,0 +1,20 @@
+#create{
+    width: 95%;
+    margin: 0 auto;
+}
+
+.create{
+    width: 50%;
+    margin: 50px 0;
+}
+
+.create input{
+    padding: 10px;
+}
+
+.create h1{
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0;
+}

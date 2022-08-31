@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+nav > *:hover{
+    color: gainsboro;
+}
+
+.logout{
+    background-color: red;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.loginBtn{
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+
+/*mobile and tablet*/
+
+@media only screen and (max-width: 900px){
+    nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

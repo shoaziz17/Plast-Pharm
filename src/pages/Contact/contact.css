@@ -1,0 +1,150 @@
+#contact {
+  width: 90%;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.secHead {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #050505;
+  margin-bottom: 30px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+}
+
+.inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  width: 300px;
+}
+
+.inner .icon {
+  width: 40px;
+  height: 40px;
+  background: #2e57ea;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon .innerIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.text p {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+
+.text h1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #050505;
+}
+
+/*registration form*/
+
+.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px 0;
+  
+}
+
+.form {
+  background-color: black;
+  color: white;
+  padding: 80px 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px 0;
+}
+
+form input {
+  padding: 5px 10px;
+  background-color: black;
+  color: white;
+  border-bottom: 1px solid white;
+  font-size: 16px;
+  outline: none;
+}
+
+form h1 {
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+}
+
+form p {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+form button {
+  width: 150px;
+  height: 40px;
+  background: #2e57ea;
+}
+
+
+/*mobile and tablet*/
+
+@media only screen and (max-width: 900px){
+
+  .secHead{
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .contacts .inner:nth-child(3){
+    margin-left: 40px;
+  }
+
+  .contacts .inner:nth-child(3) .icon{
+    padding: 10px;
+  }
+
+  .contacts .inner:nth-child(3) h1{
+    font-size: 15px;
+    width: 220px;
+  }
+
+  .main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  iframe{
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+  }
+}

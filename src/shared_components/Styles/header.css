@@ -1,0 +1,115 @@
+header {
+  background-color: black;
+  width: 100%;
+  color: white;
+}
+
+.main-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.languages .russ {
+  background-color: #1f1f1f;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.languages .russ:hover {
+  background-color: #2e57ea;
+  transition: all 0.2s;
+}
+
+.languages .eng {
+  background-color: #2e57ea;
+  border-radius: 5px;
+  width: 40px;
+  height: 40px;
+}
+
+.call p {
+  font-weight: 400;
+}
+
+.call h1 {
+  font-weight: 700;
+}
+
+.burgerIcon {
+  display: none;
+}
+
+.shop button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.shop button span{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: red;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.shopIcon{
+  width: 40px;
+  height: 40px;
+}
+
+.mobile {
+  display: none;
+}
+
+/*mobile and tab*/
+
+@media only screen and (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    padding: 50px 0px;
+  }
+
+  .shop{
+    margin-left: 310px;
+  }
+
+  .main-head {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .burgerIcon {
+    display: block;
+    width: 30px;
+    height: 30px;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .cancelIcon {
+    width: 30px;
+    height: 30px;
+  }
+}

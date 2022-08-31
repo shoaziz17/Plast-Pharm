@@ -1,0 +1,163 @@
+/*about us section*/
+
+.aboutUs {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.about {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 0;
+}
+
+.about-logo h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 46px;
+  color: #050505;
+}
+
+.textBold {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.textLight {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 20px;
+  color: #5a5a5a;
+}
+
+.about-numbers {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  padding: 50px 0;
+}
+
+.about-numbers .nums:nth-child(1),
+.about-numbers .nums:nth-child(2) {
+  border-right: 2px solid rgba(0, 0, 0, 0.21);
+}
+
+.nums {
+  padding: 10px 50px;
+}
+
+.nums h1 {
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 31px;
+  color: #2e57ea;
+}
+
+.nums p {
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 18px;
+  color: #000000;
+}
+
+/*img grid section*/
+
+#grid {
+  margin: 40px 0;
+}
+
+.gridCard {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+}
+
+.grid-text {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.grid-text p {
+  padding: 50px 0 20px 0;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+/*Certificate section*/
+
+#certificate {
+  width: 60%;
+  margin: 0 auto;
+}
+
+#certificate h1 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.certificate {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+
+/*mobile and tablet*/
+
+@media only screen and (max-width: 900px) {
+  .about {
+    width: 95%;
+  }
+  .about-logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .about-logo h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+  }
+
+  .textBold {
+    width: 350px;
+    line-height: 20px;
+  }
+
+  .about-numbers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-numbers .nums:nth-child(1),
+  .about-numbers .nums:nth-child(2) {
+    border: none;
+  }
+
+  .gridCard {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-text {
+    width: 350px;
+    line-height: 20px;
+  }
+
+  .certificate{
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,86 @@
+#glGrid {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.glGrid {
+  margin: 50px 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-gap: 10px;
+  align-items: flex-start;
+}
+
+.grid-item:nth-child(1) {
+  grid-row: 1 / 3;
+  max-height: 550px;
+  height: 550px;
+  max-width: 390px;
+}
+
+.grid-item img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.grid-item {
+  max-height: 270px;
+  height: 270px;
+  max-width: 390px;
+  overflow: hidden;
+}
+
+.grid-item:nth-child(6) {
+  grid-column: 1 / 3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 2;
+  grid-row: 3 / 5;
+  max-height: 550px;
+  height: 550px;
+  max-width: 796px;
+}
+
+.glText {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+.glText h1 {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 59px;
+  color: #050505;
+}
+
+
+/*mobile and tablet*/
+
+@media only screen and (max-width: 900px){
+  .glGrid{
+    display: flex;
+    flex-direction: column;
+  }
+  .glGrid > *{
+    width: 360px;
+    height: 200px;
+  }
+
+  .glText{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+  }
+
+  .glText h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+  }
+}
+

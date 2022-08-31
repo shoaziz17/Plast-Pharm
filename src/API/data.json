@@ -1,0 +1,185 @@
+{
+  "workers": [
+    {
+      "id": 1,
+      "img": "https://ppholding.uz/images/61d40d639a4ed.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://ppholding.uz/images/61d40d6676cc9.jpg"
+    },
+    {
+      "id": 3,
+      "img": " https://ppholding.uz/images/61d40d6943b14.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://ppholding.uz/images/61d40d6ba6cdc.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://ppholding.uz/images/61d40d6ec4dbf.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://ppholding.uz/images/61d40d715e1dc.jpg"
+    },
+    {
+      "id": 7,
+      "img": "https://ppholding.uz/images/61d40d740f228.jpg"
+    },
+    {
+      "id": 8,
+      "img": "https://ppholding.uz/images/61d40d76d91b2.jpg"
+    }
+  ],
+  "partners": [
+    {
+      "id": 1,
+      "imgURL": "https://ppholding.uz/upload/images/gBztDXJ6iRRZ6quPynoEFyFHjd0XPC9Ydk5tkP89.jpg"
+    },
+    {
+      "id": 2,
+      "imgURL": "https://ppholding.uz/upload/images/Lekxq8j0WtSSZGvOTx2mDkyaT4lDt3ceVrfflgp4.jpg"
+    },
+    {
+      "id": 3,
+      "imgURL": "https://ppholding.uz/upload/images/Arypl7DvcPdxwudXyxPFo1lCRXTMSYOnHybKNmDq.jpg"
+    },
+    {
+      "id": 4,
+      "imgURL": "https://ppholding.uz/upload/images/NdPKguGmI2EqoDMkf6Myvv8Lf7uESmHpeecOju4j.jpg"
+    },
+    {
+      "id": 5,
+      "imgURL": "https://ppholding.uz/upload/images/TjHe1111EOFudK12eefFXlEWsZkMH3VZsxfyU6Vi.jpg"
+    },
+    {
+      "id": 6,
+      "imgURL": "https://ppholding.uz/upload/images/tUi14aqeNg3IZ8Um03NPwnHHSMwT1ywetqjiCUPq.jpg"
+    },
+    {
+      "id": 7,
+      "imgURL": "https://ppholding.uz/upload/images/6aSPa2UOdYtMPOCWpQvBHWPwWt4QwwYIVjfOOjQs.jpg"
+    }
+  ],
+  "certificate": [
+    {
+      "id": 1,
+      "img": "https://ppholding.uz/upload/images/OzoGkZeZrmn0GgZ130tkkq1lk8mYF16riIn6pWFQ.jpg"
+    },
+    {
+      "id": 2,
+      "img": "https://ppholding.uz/upload/images/1uxMoqHQEUKiC7YTxoj72w1yAVFbv8m70VfjpVSl.jpg"
+    },
+    {
+      "id": 3,
+      "img": "https://ppholding.uz/upload/images/1uxMoqHQEUKiC7YTxoj72w1yAVFbv8m70VfjpVSl.jpg"
+    },
+    {
+      "id": 4,
+      "img": "https://ppholding.uz/upload/images/OzoGkZeZrmn0GgZ130tkkq1lk8mYF16riIn6pWFQ.jpg"
+    },
+    {
+      "id": 5,
+      "img": "https://ppholding.uz/upload/images/OzoGkZeZrmn0GgZ130tkkq1lk8mYF16riIn6pWFQ.jpg"
+    },
+    {
+      "id": 6,
+      "img": "https://ppholding.uz/upload/images/OzoGkZeZrmn0GgZ130tkkq1lk8mYF16riIn6pWFQ.jpg"
+    }
+  ],
+  "lid": [
+    {
+      "id": 1,
+      "img": "https://ppholding.uz/upload/images/88yswJLUGknmBVKbJI8kWndeKRfLyR3OsdA88JWT.jpg",
+      "description": "A lid, also known as a cover, is part of a container, and serves as the closure or seal, usually one that completely closes the object. Lids can be placed on small containers such as tubs as well as larger lids for open-head pails and drums."
+    },
+    {
+      "id": 2,
+      "img": "https://ppholding.uz/upload/images/7RpJDOYrXwxUTi1FCRrEmTf91meIdFdil0fFBtWb.jpg",
+      "description": "A lid, also known as a cover, is part of a container, and serves as the closure or seal, usually one that completely closes the object. Lids can be placed on small containers such as tubs as well as larger lids for open-head pails and drums."
+    },
+    {
+      "id": 3,
+      "img": "https://ppholding.uz/upload/images/mFot4ObNol1iuQzmTZJmPvFQ6TtyzMG8Mx1SnFdW.jpg",
+      "description": "A lid, also known as a cover, is part of a container, and serves as the closure or seal, usually one that completely closes the object. Lids can be placed on small containers such as tubs as well as larger lids for open-head pails and drums."
+    },
+    {
+      "id": 4,
+      "img": "https://ppholding.uz/upload/images/QYsvj9xrAGaDEOIkVXyskHNJotgQXTm66HQZUN3n.jpg",
+      "description": "A lid, also known as a cover, is part of a container, and serves as the closure or seal, usually one that completely closes the object. Lids can be placed on small containers such as tubs as well as larger lids for open-head pails and drums."
+    }
+  ],
+  "probes": [
+    {
+      "id": 1,
+      "img": "https://ppholding.uz/upload/images/cYCElicS8h3HEa6JDd3WUV5DWbhPkDshXDEuwXnU.jpg",
+      "description": "A probe is a single-stranded sequence of DNA or RNA used to search for its complementary sequence in a sample genome. The probe is placed into contact with the sample under conditions that allow the probe sequence to hybridize with its complementary sequence."
+    },
+    {
+      "id": 2,
+      "img": "https://ppholding.uz/upload/images/3KPZYvrYCwlKU9LqbRuKdPp8SU2JuvzM2PNygDRq.jpg",
+      "description": "A probe is a single-stranded sequence of DNA or RNA used to search for its complementary sequence in a sample genome. The probe is placed into contact with the sample under conditions that allow the probe sequence to hybridize with its complementary sequence."
+    },
+    {
+      "id": 3,
+      "img": "https://ppholding.uz/upload/images/xZ4AP5Yc2WbTUbLpceYyG6SKwwlM61zK3MO1mlOD.jpg",
+      "description": "A probe is a single-stranded sequence of DNA or RNA used to search for its complementary sequence in a sample genome. The probe is placed into contact with the sample under conditions that allow the probe sequence to hybridize with its complementary sequence."
+    },
+    {
+      "id": 4,
+      "img": "https://ppholding.uz/upload/images/cmAogtJaJnP10nZTOazjImNUor3v386nmwv0oXIF.png",
+      "description": "A probe is a single-stranded sequence of DNA or RNA used to search for its complementary sequence in a sample genome. The probe is placed into contact with the sample under conditions that allow the probe sequence to hybridize with its complementary sequence."
+    },
+    {
+      "id": 5,
+      "img": "https://ppholding.uz/upload/images/Ynjzm4lLgdSkz2MncioVQP8qUheDKTFgOEVLWGnm.jpg",
+      "description": "A probe is a single-stranded sequence of DNA or RNA used to search for its complementary sequence in a sample genome. The probe is placed into contact with the sample under conditions that allow the probe sequence to hybridize with its complementary sequence."
+    }
+  ],
+  "vials": [
+    {
+      "id": 1,
+      "img": "https://ppholding.uz/upload/images/2ocyPTqlHqdJcoIR7QuWrnq1s6UhG0to76rwLb7B.jpg",
+      "description": "Vials are small bottles or containers made from either plastic or glass. They're used to store medicines in liquid form, and they can even store powders or tablets."
+    },
+    {
+      "id": 2,
+      "img": "https://ppholding.uz/upload/images/6iydmA6Y5aOZ64crNFOSpHVQ70JpORKbgAhwBEYI.jpg",
+      "description": "Vials are small bottles or containers made from either plastic or glass. They're used to store medicines in liquid form, and they can even store powders or tablets."
+    },
+    {
+      "id": 3,
+      "img": "https://ppholding.uz/upload/images/QefENMbI32CNLh6BDrhvcXxsTSnupXYVm8XkgLsC.jpg",
+      "description": "Vials are small bottles or containers made from either plastic or glass. They're used to store medicines in liquid form, and they can even store powders or tablets."
+    },
+    {
+      "id": 4,
+      "img": "https://ppholding.uz/upload/images/2ocyPTqlHqdJcoIR7QuWrnq1s6UhG0to76rwLb7B.jpg",
+      "description": "Vials are small bottles or containers made from either plastic or glass. They're used to store medicines in liquid form, and they can even store powders or tablets."
+    },
+    {
+      "id": 5,
+      "img": "https://ppholding.uz/upload/images/6iydmA6Y5aOZ64crNFOSpHVQ70JpORKbgAhwBEYI.jpg",
+      "description": "Vials are small bottles or containers made from either plastic or glass. They're used to store medicines in liquid form, and they can even store powders or tablets."
+    }
+  ],
+  "card": [
+    {
+      "id": 1,
+      "title": "Lid",
+      "imgURL": "https://ppholding.uz/upload/images/KtAxfg9ytKxWFBXREYq17KSVvRrEX3nbnDZKJzIl.png"
+    },
+    {
+      "id": 2,
+      "title": "Capsules",
+      "imgURL": "https://ppholding.uz/upload/images/lX2q1Ed0O6z8qx9NqrZNCajlE5u0zs26fVq0OMwY.png"
+    },
+    {
+      "id": 3,
+      "title": "Vials",
+      "imgURL": "https://ppholding.uz/upload/images/02ENkwUentSP29XRCR0FIi9z0ay1zYipIJuK42HB.png"
+    }
+  ]
+}

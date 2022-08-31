@@ -1,0 +1,48 @@
+#error{
+    width: 90%;
+    margin: 30px auto;
+}
+
+.error div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.error img{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.error h1{
+    font-size: 20px;
+}
+
+.backHome{
+    background-color: darkslategrey;
+    color: rgb(1, 255, 179);
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.backHome:hover{
+    background-color: rgb(1,255,179);
+    color: darkslategrey;
+}
+
+@media only screen and (max-width:900px){
+    .error img{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .error h1{
+        font-size: 18px;
+    }
+
+    .error{
+        margin: 150px 0;
+    }
+}

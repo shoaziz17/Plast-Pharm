@@ -1,0 +1,31 @@
+
+#buyed{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.buyed{
+    padding: 50px 0;
+}
+
+.buyedRow{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+}
+
+.buyedRow{
+    width: 100%;
+}
+
+.buyedRow img{
+    width: 70%;
+}
+
+
+@media only screen and (max-width:900px){
+    .buyedRow{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
